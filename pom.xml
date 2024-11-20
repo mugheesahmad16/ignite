@@ -551,7 +551,8 @@
                                                 <include name="tests/ignitetest/__init__.py" />
                                             </fileset>
                                         </replaceregexp>
-
+ 
+                                        
                                         <echo message="Update ignite.version in C++" />
 
                                         <replaceregexp byline="true" encoding="UTF-8">
